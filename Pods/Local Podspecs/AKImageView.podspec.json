@@ -1,5 +1,5 @@
 {
-  "name": "AKImageview",
+  "name": "AKImageView",
   "version": "1.0.0",
   "summary": "This help to loading the image URL string from the server and return the image.",
   "description": "This help to loading the image URL string from the server and return the image. It's light weight and easy to use.",

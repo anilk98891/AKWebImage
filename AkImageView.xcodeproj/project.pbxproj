@@ -17,6 +17,8 @@
 		040444D8240FA7100052556E /* AKImageview.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 040444D7240FA7100052556E /* AKImageview.podspec */; };
 		046965F6240F5294005715BE /* AkImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 046965F4240F5294005715BE /* AkImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046965FD240F52C5005715BE /* ImageViewLoadWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046965FC240F52C5005715BE /* ImageViewLoadWeb.swift */; };
+		CAFF4784449D6F17058DCEC4 /* Pods_AKImageViewExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D8FAA059F766E4F0B0AA22 /* Pods_AKImageViewExamples.framework */; };
+		EDD27114B9F0C0C3DEFE1F2D /* Pods_AkImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B3B54FC5EE4D603A74F599 /* Pods_AkImageView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,12 @@
 		046965F4240F5294005715BE /* AkImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AkImageView.h; sourceTree = "<group>"; };
 		046965F5240F5294005715BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046965FC240F52C5005715BE /* ImageViewLoadWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewLoadWeb.swift; sourceTree = "<group>"; };
+		05D8FAA059F766E4F0B0AA22 /* Pods_AKImageViewExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKImageViewExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B3B54FC5EE4D603A74F599 /* Pods_AkImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4810B84AE4AA7CD2D9F1CF09 /* Pods-AkImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkImageView.debug.xcconfig"; path = "Target Support Files/Pods-AkImageView/Pods-AkImageView.debug.xcconfig"; sourceTree = "<group>"; };
+		6695082B6F81E08B90679BD2 /* Pods-AkImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkImageView.release.xcconfig"; path = "Target Support Files/Pods-AkImageView/Pods-AkImageView.release.xcconfig"; sourceTree = "<group>"; };
+		A4595742ED9078AFA3E6C468 /* Pods-AKImageViewExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKImageViewExamples.debug.xcconfig"; path = "Target Support Files/Pods-AKImageViewExamples/Pods-AKImageViewExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		F96296C59F9183FC65CAB83B /* Pods-AKImageViewExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKImageViewExamples.release.xcconfig"; path = "Target Support Files/Pods-AKImageViewExamples/Pods-AKImageViewExamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040444D2240FA2F80052556E /* AkImageView.framework in Frameworks */,
+				CAFF4784449D6F17058DCEC4 /* Pods_AKImageViewExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD27114B9F0C0C3DEFE1F2D /* Pods_AkImageView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +104,8 @@
 		040444D1240FA2F80052556E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05D8FAA059F766E4F0B0AA22 /* Pods_AKImageViewExamples.framework */,
+				21B3B54FC5EE4D603A74F599 /* Pods_AkImageView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,6 +117,7 @@
 				040444BE240FA1CE0052556E /* AKImageViewExamples */,
 				046965F2240F5294005715BE /* Products */,
 				040444D1240FA2F80052556E /* Frameworks */,
+				FA29B4DE8993E6B6089E22F0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +140,18 @@
 			path = AkImageView;
 			sourceTree = "<group>";
 		};
+		FA29B4DE8993E6B6089E22F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4595742ED9078AFA3E6C468 /* Pods-AKImageViewExamples.debug.xcconfig */,
+				F96296C59F9183FC65CAB83B /* Pods-AKImageViewExamples.release.xcconfig */,
+				4810B84AE4AA7CD2D9F1CF09 /* Pods-AkImageView.debug.xcconfig */,
+				6695082B6F81E08B90679BD2 /* Pods-AkImageView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -145,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040444D0240FA1D00052556E /* Build configuration list for PBXNativeTarget "AKImageViewExamples" */;
 			buildPhases = (
+				F43FE41F0DEA79BCCC8B6FF1 /* [CP] Check Pods Manifest.lock */,
 				040444B9240FA1CE0052556E /* Sources */,
 				040444BA240FA1CE0052556E /* Frameworks */,
 				040444BB240FA1CE0052556E /* Resources */,
@@ -164,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046965F9240F5294005715BE /* Build configuration list for PBXNativeTarget "AkImageView" */;
 			buildPhases = (
+				54D99B5967EF86570BEDF799 /* [CP] Check Pods Manifest.lock */,
 				046965EC240F5294005715BE /* Headers */,
 				046965ED240F5294005715BE /* Sources */,
 				046965EE240F5294005715BE /* Frameworks */,
@@ -237,6 +264,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54D99B5967EF86570BEDF799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AkImageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43FE41F0DEA79BCCC8B6FF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKImageViewExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040444B9240FA1CE0052556E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -287,6 +361,7 @@
 /* Begin XCBuildConfiguration section */
 		040444CE240FA1D00052556E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4595742ED9078AFA3E6C468 /* Pods-AKImageViewExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +379,7 @@
 		};
 		040444CF240FA1D00052556E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96296C59F9183FC65CAB83B /* Pods-AKImageViewExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +517,7 @@
 		};
 		046965FA240F5294005715BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4810B84AE4AA7CD2D9F1CF09 /* Pods-AkImageView.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +545,7 @@
 		};
 		046965FB240F5294005715BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6695082B6F81E08B90679BD2 /* Pods-AkImageView.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;

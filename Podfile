@@ -12,7 +12,7 @@ end
 target 'AKImageViewExamples' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-	pod 'AKImageView', :path => '../AkImageView/AKImageview.podspec'
+	pod 'AKImageView', :path => '../AkImageView'
 
   # Pods for AKImageViewExamples
 

@@ -1,0 +1,6 @@
+framework module Pods_AKImageViewExamples {
+  umbrella header "Pods-AKImageViewExamples-umbrella.h"
+
+  export *
+  module * { export * }
+}

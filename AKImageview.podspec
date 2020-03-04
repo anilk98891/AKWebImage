@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AKImageview"
+  spec.name         = "AKImageView"
   spec.version      = "1.0.0"
   spec.summary      = "This help to loading the image URL string from the server and return the image."
   spec.description  = <<-DESC

@@ -1,0 +1,16 @@
+PODS:
+  - AKImageView (1.0.0)
+
+DEPENDENCIES:
+  - AKImageView (from `../AkImageView`)
+
+EXTERNAL SOURCES:
+  AKImageView:
+    :path: "../AkImageView"
+
+SPEC CHECKSUMS:
+  AKImageView: 2f4e74616f976c0b5e5209e29fbb081c88bc404b
+
+PODFILE CHECKSUM: 54243ab61cb4c3c7cd1f6bc0e78f7221dbedb51b
+
+COCOAPODS: 1.9.0
