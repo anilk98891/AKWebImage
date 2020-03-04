@@ -10,28 +10,28 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AKImageViewExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AKWebImageExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zb1-UG-yh3">
-                                <rect key="frame" x="87" y="378" width="240" height="140"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-mF-I4S">
+                                <rect key="frame" x="82" y="323" width="250" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="8Uh-8d-f2U"/>
-                                    <constraint firstAttribute="width" constant="240" id="uK3-gs-IU8"/>
+                                    <constraint firstAttribute="height" constant="250" id="HRL-GO-Sdq"/>
+                                    <constraint firstAttribute="width" constant="250" id="ZrE-kH-DvX"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="zb1-UG-yh3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZNm-mu-vKl"/>
-                            <constraint firstItem="zb1-UG-yh3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jyf-0L-ekV"/>
+                            <constraint firstItem="Wbl-mF-I4S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PDK-Su-4Fr"/>
+                            <constraint firstItem="Wbl-mF-I4S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="avS-qz-ljm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="zb1-UG-yh3" id="FD3-if-wSK"/>
+                        <outlet property="imgageViewDummy" destination="Wbl-mF-I4S" id="AE4-K9-jle"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

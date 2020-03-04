@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AkImageView.xcodeproj">
+      location = "self:AKWebImage.xcodeproj">
    </FileRef>
 </Workspace>
