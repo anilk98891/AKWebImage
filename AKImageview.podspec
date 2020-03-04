@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AKImageView"
+  spec.name         = "AKImageViews"
   spec.version      = "1.0.0"
   spec.summary      = "This help to loading the image URL string from the server and return the image."
   spec.description  = <<-DESC
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Anil kumar" => "anilk98891@gmail.com" }
 
   spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'anilframework.framework'
+  spec.ios.vendored_frameworks = 'AKImageView.framework'
   spec.source       = { :http => "https://www.dropbox.com/s/py25olbpo2ev3i3/anilframework.zip?dl=0"}
   spec.exclude_files = "Classes/Exclude"
 end
