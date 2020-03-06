@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Anil kumar" => "anilk98891@gmail.com" }
 
   spec.ios.deployment_target = '10.0'
-  spec.source       = { :git => "https://github.com/anilk98891/AKImageView.git", :tag => "1.0.2" }
+  spec.source       = { :git => "https://github.com/anilk98891/AKWebImage.git", :tag => "1.0.2" }
   spec.source_files  = 'AKWebImage/*.{h,m,swift}'
 
 end
