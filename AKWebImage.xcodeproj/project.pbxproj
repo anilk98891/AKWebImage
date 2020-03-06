@@ -18,6 +18,9 @@
 		0404453A240FD3D00052556E /* AKWebImageExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04044539240FD3D00052556E /* AKWebImageExampleUITests.swift */; };
 		04044543240FD4390052556E /* AKWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0404450F240FD3360052556E /* AKWebImage.framework */; };
 		04044544240FD4390052556E /* AKWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0404450F240FD3360052556E /* AKWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30B404AA96892C0174E76C82 /* Pods_AKWebImage_AKWebImageExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24BBA4E795329DA2945CA45 /* Pods_AKWebImage_AKWebImageExampleUITests.framework */; };
+		8F3DF0073B77F3AB22E959FD /* Pods_AKWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B297705EFA3479121C6C16A6 /* Pods_AKWebImage.framework */; };
+		EF08B337C3039F4389746E1F /* Pods_AKWebImageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD1CD9989E46E31751253C8 /* Pods_AKWebImageExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,15 @@
 		04044535240FD3D00052556E /* AKWebImageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKWebImageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04044539240FD3D00052556E /* AKWebImageExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKWebImageExampleUITests.swift; sourceTree = "<group>"; };
 		0404453B240FD3D00052556E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD1CD9989E46E31751253C8 /* Pods_AKWebImageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKWebImageExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFBDE4E8FCDCD2B53EB9DDB /* Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-AKWebImage-AKWebImageExampleUITests/Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EFE2D68D6B01B6D6C02FFCA /* Pods-AKWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKWebImage.release.xcconfig"; path = "Target Support Files/Pods-AKWebImage/Pods-AKWebImage.release.xcconfig"; sourceTree = "<group>"; };
+		971C4336D2D3BAB8EBD4AABD /* Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-AKWebImage-AKWebImageExampleUITests/Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3219B2E2146B0FC8520DF65 /* Pods-AKWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKWebImage.debug.xcconfig"; path = "Target Support Files/Pods-AKWebImage/Pods-AKWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+		B297705EFA3479121C6C16A6 /* Pods_AKWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDF05CBEB332B0BBB684A8E /* Pods-AKWebImageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKWebImageExample.debug.xcconfig"; path = "Target Support Files/Pods-AKWebImageExample/Pods-AKWebImageExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F24BBA4E795329DA2945CA45 /* Pods_AKWebImage_AKWebImageExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKWebImage_AKWebImageExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED6D19A1EAD2E355CB1B139 /* Pods-AKWebImageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKWebImageExample.release.xcconfig"; path = "Target Support Files/Pods-AKWebImageExample/Pods-AKWebImageExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3DF0073B77F3AB22E959FD /* Pods_AKWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04044543240FD4390052556E /* AKWebImage.framework in Frameworks */,
+				EF08B337C3039F4389746E1F /* Pods_AKWebImageExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B404AA96892C0174E76C82 /* Pods_AKWebImage_AKWebImageExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +118,7 @@
 				04044538240FD3D00052556E /* AKWebImageExampleUITests */,
 				04044510240FD3360052556E /* Products */,
 				04044542240FD4390052556E /* Frameworks */,
+				0FD1A46AACFCDCDE2A5D6989 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +168,9 @@
 		04044542240FD4390052556E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B297705EFA3479121C6C16A6 /* Pods_AKWebImage.framework */,
+				F24BBA4E795329DA2945CA45 /* Pods_AKWebImage_AKWebImageExampleUITests.framework */,
+				0FD1CD9989E46E31751253C8 /* Pods_AKWebImageExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,6 +181,20 @@
 				0404451A240FD34E0052556E /* ImageViewLoadWeb.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		0FD1A46AACFCDCDE2A5D6989 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3219B2E2146B0FC8520DF65 /* Pods-AKWebImage.debug.xcconfig */,
+				7EFE2D68D6B01B6D6C02FFCA /* Pods-AKWebImage.release.xcconfig */,
+				2AFBDE4E8FCDCD2B53EB9DDB /* Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig */,
+				971C4336D2D3BAB8EBD4AABD /* Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig */,
+				BCDF05CBEB332B0BBB684A8E /* Pods-AKWebImageExample.debug.xcconfig */,
+				FED6D19A1EAD2E355CB1B139 /* Pods-AKWebImageExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04044517240FD3360052556E /* Build configuration list for PBXNativeTarget "AKWebImage" */;
 			buildPhases = (
+				C7B5D86878F01445E0E48F0E /* [CP] Check Pods Manifest.lock */,
 				0404450A240FD3360052556E /* Headers */,
 				0404450B240FD3360052556E /* Sources */,
 				0404450C240FD3360052556E /* Frameworks */,
@@ -200,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0404453C240FD3D00052556E /* Build configuration list for PBXNativeTarget "AKWebImageExample" */;
 			buildPhases = (
+				BD537B5890D4F101228540F5 /* [CP] Check Pods Manifest.lock */,
 				0404451C240FD3CE0052556E /* Sources */,
 				0404451D240FD3CE0052556E /* Frameworks */,
 				0404451E240FD3CE0052556E /* Resources */,
@@ -219,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0404453F240FD3D00052556E /* Build configuration list for PBXNativeTarget "AKWebImageExampleUITests" */;
 			buildPhases = (
+				68C6544822ABC0CDE7D1A641 /* [CP] Check Pods Manifest.lock */,
 				04044531240FD3D00052556E /* Sources */,
 				04044532240FD3D00052556E /* Frameworks */,
 				04044533240FD3D00052556E /* Resources */,
@@ -302,6 +338,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68C6544822ABC0CDE7D1A641 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKWebImage-AKWebImageExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD537B5890D4F101228540F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKWebImageExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B5D86878F01445E0E48F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKWebImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0404450B240FD3360052556E /* Sources */ = {
@@ -487,6 +592,7 @@
 		};
 		04044518240FD3360052556E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3219B2E2146B0FC8520DF65 /* Pods-AKWebImage.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +619,7 @@
 		};
 		04044519240FD3360052556E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFE2D68D6B01B6D6C02FFCA /* Pods-AKWebImage.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +645,7 @@
 		};
 		0404453D240FD3D00052556E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDF05CBEB332B0BBB684A8E /* Pods-AKWebImageExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +663,7 @@
 		};
 		0404453E240FD3D00052556E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED6D19A1EAD2E355CB1B139 /* Pods-AKWebImageExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +681,7 @@
 		};
 		04044540240FD3D00052556E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AFBDE4E8FCDCD2B53EB9DDB /* Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +701,7 @@
 		};
 		04044541240FD3D00052556E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971C4336D2D3BAB8EBD4AABD /* Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
