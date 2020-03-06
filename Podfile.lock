@@ -1,0 +1,16 @@
+PODS:
+  - AKWebImage (1.0.2)
+
+DEPENDENCIES:
+  - AKWebImage (from `../AKImageView`)
+
+EXTERNAL SOURCES:
+  AKWebImage:
+    :path: "../AKImageView"
+
+SPEC CHECKSUMS:
+  AKWebImage: 0a35b798bb962c7f5aab04d29d35ed6727073d26
+
+PODFILE CHECKSUM: e5edd1be3725d14ec6f5f2c053685d103f5a44d6
+
+COCOAPODS: 1.9.0

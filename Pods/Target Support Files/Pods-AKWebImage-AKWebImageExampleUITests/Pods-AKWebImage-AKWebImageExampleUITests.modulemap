@@ -1,0 +1,6 @@
+framework module Pods_AKWebImage_AKWebImageExampleUITests {
+  umbrella header "Pods-AKWebImage-AKWebImageExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
