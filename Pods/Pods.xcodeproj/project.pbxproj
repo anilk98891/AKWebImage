@@ -44,7 +44,6 @@
 		00896BF6A1036EB45ABCAF7C1DB5C0CC /* Pods-AKWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKWebImage.modulemap"; sourceTree = "<group>"; };
 		0934A47E59F34C3FC4E3E1D168B1237A /* Pods-AKWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKWebImage-Info.plist"; sourceTree = "<group>"; };
 		19406B5C3C8C76DA3F1F6C5111B25935 /* Pods-AKWebImage-AKWebImageExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKWebImage-AKWebImageExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		226F0E6F360C1D7872C2EC2975D5358F /* AKWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		251857106525D1DA2289B9677806891E /* Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKWebImage-AKWebImageExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37A3B1D9C39C4A5838705F266F26666E /* Pods-AKWebImage-AKWebImageExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKWebImage-AKWebImageExampleUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -52,25 +51,27 @@
 		5BCBC050CFBB0D0A9022EFE8E9907E85 /* Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKWebImage-AKWebImageExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5DABE22E078BC36929C66DE4392C6510 /* Pods-AKWebImage-AKWebImageExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKWebImage-AKWebImageExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F386AC8F86CB1DC67D185238EB7F5F5 /* Pods-AKWebImageExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKWebImageExample-dummy.m"; sourceTree = "<group>"; };
-		5FCBEDD34D2A077DCA150970D4C88024 /* AKWebImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKWebImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		69B306AB470D780F45BAFD083B11DE6D /* Pods-AKWebImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKWebImage-acknowledgements.plist"; sourceTree = "<group>"; };
 		6D0C7EE2838B99217601611696F1B1E9 /* Pods-AKWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKWebImage.release.xcconfig"; sourceTree = "<group>"; };
+		822EE72593756F56DE095E943F8852D3 /* AKWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKWebImage.h; path = AKWebImage/AKWebImage.h; sourceTree = "<group>"; };
 		8949B5A50E58612E60DE33D9D0F0E380 /* Pods-AKWebImageExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKWebImageExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F7AFC730460174E6F213F85720C2797 /* Pods-AKWebImage-AKWebImageExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKWebImage-AKWebImageExampleUITests-Info.plist"; sourceTree = "<group>"; };
 		95F314FB91F4DA5847470511BC655A88 /* Pods-AKWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKWebImage-umbrella.h"; sourceTree = "<group>"; };
 		96CE5D6DC91AA20FF03EC86AC8F0B2D9 /* Pods_AKWebImage_AKWebImageExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKWebImage_AKWebImageExampleUITests.framework; path = "Pods-AKWebImage-AKWebImageExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4C6FF80147EC362E433B5DAEBD467E /* Pods_AKWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKWebImage.framework; path = "Pods-AKWebImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB2C3877B243843F7C15BD4B76C237 /* AKWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		B4943E0FF4962E13CF6CE1C4603C2EA6 /* Pods-AKWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKWebImage-dummy.m"; sourceTree = "<group>"; };
-		BA8C729599EBEC746B985EBFDF52BCBC /* AKWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKWebImage.h; path = AKWebImage/AKWebImage.h; sourceTree = "<group>"; };
+		BDC2BA86B6AE36F8A58FC298A722E7DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C6F4ABB39BE1CBA0861CCB071FB85F48 /* Pods-AKWebImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKWebImage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7FD693AFC81C4609414670EFF72FBF1 /* Pods_AKWebImageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKWebImageExample.framework; path = "Pods-AKWebImageExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D632133C5F214C44384360314D3E54 /* Pods-AKWebImageExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKWebImageExample-umbrella.h"; sourceTree = "<group>"; };
 		CB426C3615467A7B9E2188C5CB3EB2E9 /* Pods-AKWebImageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKWebImageExample.debug.xcconfig"; sourceTree = "<group>"; };
 		CE93947AF0FF525DD132F934226A025C /* Pods-AKWebImageExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKWebImageExample.modulemap"; sourceTree = "<group>"; };
 		D363A02AA8E1AD71F58F44C23BD1B9AA /* Pods-AKWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKWebImage.debug.xcconfig"; sourceTree = "<group>"; };
-		E2B7FD8FF535C863556B8C3D564A01AB /* AKWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKWebImage.release.xcconfig; sourceTree = "<group>"; };
+		D8AE6C7BE013963C07D6E254301433B7 /* AKWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKWebImage.release.xcconfig; sourceTree = "<group>"; };
 		E90F594BB90F0DDEB3DA16A8202E4210 /* Pods-AKWebImage-AKWebImageExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKWebImage-AKWebImageExampleUITests.modulemap"; sourceTree = "<group>"; };
+		EAEE3BD952859BC7BB7D8FE3A5182164 /* AKWebImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKWebImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EEA8C25C364D5147C133BAC775642F6A /* Pods-AKWebImageExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKWebImageExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA53920D4619A4F1DE5A6251E0121A0A /* Pods-AKWebImageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKWebImageExample.release.xcconfig"; sourceTree = "<group>"; };
 		FFF20792152FB97F2D537282730DA49E /* Pods-AKWebImage-AKWebImageExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKWebImage-AKWebImageExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -104,6 +105,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3227B684A21C4188B6A50DDF6A41511E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB2C3877B243843F7C15BD4B76C237 /* AKWebImage.debug.xcconfig */,
+				D8AE6C7BE013963C07D6E254301433B7 /* AKWebImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/AKWebImage";
+			sourceTree = "<group>";
+		};
 		3C74E22077BE35288A2F796FC008E42D /* Pods-AKWebImage-AKWebImageExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +151,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		748C4CDE545169928ACFFAF59379EA9D /* AKWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				822EE72593756F56DE095E943F8852D3 /* AKWebImage.h */,
+				D6C82F7F613FD6990FF476AC24A6CAB9 /* Pod */,
+				3227B684A21C4188B6A50DDF6A41511E /* Support Files */,
+			);
+			name = AKWebImage;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B88802D4D543DE95E5B2631BD03CA60F /* Pods-AKWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,16 +178,6 @@
 			path = "Target Support Files/Pods-AKWebImage";
 			sourceTree = "<group>";
 		};
-		B9DECF6C0B6D8B17B043557EDF3682A0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				226F0E6F360C1D7872C2EC2975D5358F /* AKWebImage.debug.xcconfig */,
-				E2B7FD8FF535C863556B8C3D564A01AB /* AKWebImage.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/AKWebImage";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +189,7 @@
 		C328959DA608009EF483F55923D4C6EF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F6AA3A5FB5443E37EE48277D40AFC81C /* AKWebImage */,
+				748C4CDE545169928ACFFAF59379EA9D /* AKWebImage */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -201,10 +213,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ECCE56270C61A018B5DCB8366406BDC0 /* Pod */ = {
+		D6C82F7F613FD6990FF476AC24A6CAB9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5FCBEDD34D2A077DCA150970D4C88024 /* AKWebImage.podspec */,
+				EAEE3BD952859BC7BB7D8FE3A5182164 /* AKWebImage.podspec */,
+				BDC2BA86B6AE36F8A58FC298A722E7DE /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -223,17 +236,6 @@
 			);
 			name = "Pods-AKWebImageExample";
 			path = "Target Support Files/Pods-AKWebImageExample";
-			sourceTree = "<group>";
-		};
-		F6AA3A5FB5443E37EE48277D40AFC81C /* AKWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				BA8C729599EBEC746B985EBFDF52BCBC /* AKWebImage.h */,
-				ECCE56270C61A018B5DCB8366406BDC0 /* Pod */,
-				B9DECF6C0B6D8B17B043557EDF3682A0 /* Support Files */,
-			);
-			name = AKWebImage;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,7 +455,7 @@
 		};
 		3980C760E6FEF5BF4593A26E36EACB3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2B7FD8FF535C863556B8C3D564A01AB /* AKWebImage.release.xcconfig */;
+			baseConfigurationReference = D8AE6C7BE013963C07D6E254301433B7 /* AKWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -531,7 +533,7 @@
 		};
 		527189387234058962B83C23AAEACDD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 226F0E6F360C1D7872C2EC2975D5358F /* AKWebImage.debug.xcconfig */;
+			baseConfigurationReference = A8CB2C3877B243843F7C15BD4B76C237 /* AKWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../AKImageView"
 
 SPEC CHECKSUMS:
-  AKWebImage: de75e25a453d1a35cf8f0fb472b36aec76ab32d2
+  AKWebImage: bd7bc0327c56dc08b1dfc4cefa916b8527baf7d9
 
 PODFILE CHECKSUM: e5edd1be3725d14ec6f5f2c053685d103f5a44d6
 
