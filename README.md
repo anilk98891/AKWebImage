@@ -2,6 +2,7 @@
 
 Installation:-
 
+# CocoaPods
 pod 'AKWebImage'
 
 #This pod library help to loading the image URL string from the server and return the image. It's light weight and easy to use For Swift 5.0.
