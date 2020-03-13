@@ -16,7 +16,7 @@ pod 'AKWebImage'
 
 #### Set in ImageView:-
 
-self.imageViewLoadFromServer(url: "https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-600w-407021107.jpg")
+self.imageViewLoadFromServer(url: "image URl")
 
 ## Requirements:-    
 Xcode 10 or later  
