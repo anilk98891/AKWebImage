@@ -1,11 +1,45 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
+      {
+        "id": 1,
+        "title": "hello"
+      }
+    ],
   "profile": {
-    "name": "typicode"
+    "name": "Anil Kumar",
+    "info": [
+    "iOS-Flutter",
+    "Traveller",
+    "Gurgaon"
+    ],
+    "posts1": "138",
+    "followers": "241",
+    "following": "468",
+    "collection": [{
+        "img": "https://picsum.photos/150/150/?random",
+        "title": "Food joint"
+    },{
+        "img": "https://picsum.photos/150/150/?random",
+        "title": "Photos"
+    },{
+        "img": "https://picsum.photos/150/150/?random",
+        "title": "Travel"
+    },{
+        "img": "https://picsum.photos/150/150/?random",
+        "title": "Gurgaon"
+    },{
+        "img": "https://picsum.photos/150/150/?random",
+        "title": "Vehicles"
+    },{
+        "img": "https://picsum.photos/150/150/?random",
+        "title": "Video Games"
+    }
+    ],
+    "mostLikedPhotos": [
+        "https://picsum.photos/250/200/?random",
+        "https://picsum.photos/250/200/?random",
+        "https://picsum.photos/250/200/?random",
+        "https://picsum.photos/250/200/?random"
+    ]
   }
 }
