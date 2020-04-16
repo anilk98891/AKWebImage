@@ -1,8 +1,13 @@
 {
-    "posts": "138",
+  "posts": [
+      {
+        "id": 1,
+        "title": "hello"
+      }
+    ],
   "profile": {
     "name": "Anil Kumar",
-    "info":[
+    "info": [
     "iOS-Flutter",
     "Traveller",
     "Gurgaon"
@@ -10,7 +15,7 @@
     "posts1": "138",
     "followers": "241",
     "following": "468",
-    "collection":[{
+    "collection": [{
         "img": "https://picsum.photos/150/150/?random",
         "title": "Food joint"
     },{
@@ -30,7 +35,7 @@
         "title": "Video Games"
     }
     ],
-    "mostLikedPhotos":[
+    "mostLikedPhotos": [
         "https://picsum.photos/250/200/?random",
         "https://picsum.photos/250/200/?random",
         "https://picsum.photos/250/200/?random",
