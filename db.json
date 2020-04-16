@@ -1,20 +1,21 @@
 {
-  "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
+    "posts": [
+        {
+            "id": 1,
+            "title": "hello"
+        }
     ],
-  "profile": {
-    "name": "Anil Kumar",
-    "info": [
-    "iOS-Flutter",
-    "Traveller",
-    "Gurgaon"
-    ],
-    "posts1": "138",
-    "followers": "241",
-    "following": "468",
+    "profile": {
+        "name": "Anil Kumar",
+        "info": [
+            "iOS-Flutter",
+            "Traveller",
+            "Gurgaon"
+        ],
+        "posts1": 138,
+        "followers": 241,
+        "following": 468
+    },
     "collection": [{
         "img": "https://picsum.photos/150/150/?random",
         "title": "Food joint"
@@ -41,5 +42,4 @@
         "https://picsum.photos/250/200/?random",
         "https://picsum.photos/250/200/?random"
     ]
-  }
 }
