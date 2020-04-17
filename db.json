@@ -17,29 +17,29 @@
         "following": 468
     },
     "collection": [{
-        "img": "https://picsum.photos/150/150/?random",
+        "img": "https://picsum.photos/150/150/?random1",
         "title": "Food joint"
     },{
-        "img": "https://picsum.photos/150/150/?random",
+        "img": "https://picsum.photos/150/150/?random2",
         "title": "Photos"
     },{
-        "img": "https://picsum.photos/150/150/?random",
+        "img": "https://picsum.photos/150/150/?random3",
         "title": "Travel"
     },{
-        "img": "https://picsum.photos/150/150/?random",
+        "img": "https://picsum.photos/150/150/?random4",
         "title": "Gurgaon"
     },{
-        "img": "https://picsum.photos/150/150/?random",
+        "img": "https://picsum.photos/150/150/?random5",
         "title": "Vehicles"
     },{
-        "img": "https://picsum.photos/150/150/?random",
+        "img": "https://picsum.photos/150/150/?random6",
         "title": "Video Games"
     }
     ],
     "mostLikedPhotos": [
-        "https://picsum.photos/250/200/?random",
-        "https://picsum.photos/250/200/?random",
-        "https://picsum.photos/250/200/?random",
-        "https://picsum.photos/250/200/?random"
+        "https://picsum.photos/250/200/?random7",
+        "https://picsum.photos/250/200/?random8",
+        "https://picsum.photos/250/200/?random9",
+        "https://picsum.photos/250/200/?random10"
     ]
 }
